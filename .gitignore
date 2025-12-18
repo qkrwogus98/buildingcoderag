@@ -1,0 +1,7 @@
+__pycache__/
+langchain_examples/
+pdf_data/
+raw_data.pdf
+debug_texts/
+credential.txt
+databse/

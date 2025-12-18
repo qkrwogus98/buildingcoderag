@@ -1,0 +1,392 @@
+INFO - 
+
+######################################################################
+INFO - 🚀 실행 시작: 2025-11-20 17:57:06
+INFO - ######################################################################
+
+INFO - ✅ Neo4j 연결
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Article) ON (e.uid)` has no effect.} {description: `RANGE INDEX index_9755e5ee FOR (e:Article) ON (e.uid)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (a:Article) ON (a.uid)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Article) ON (e.article_id)` has no effect.} {description: `RANGE INDEX index_8d08c679 FOR (e:Article) ON (e.article_id)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (a:Article) ON (a.article_id)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Article) ON (e.law_code)` has no effect.} {description: `RANGE INDEX index_9750b603 FOR (e:Article) ON (e.law_code)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (a:Article) ON (a.law_code)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Clause) ON (e.uid)` has no effect.} {description: `RANGE INDEX index_983f95a3 FOR (e:Clause) ON (e.uid)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (c:Clause) ON (c.uid)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Item) ON (e.uid)` has no effect.} {description: `RANGE INDEX index_ea216375 FOR (e:Item) ON (e.uid)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (i:Item) ON (i.uid)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Subitem) ON (e.uid)` has no effect.} {description: `RANGE INDEX index_d0dc505c FOR (e:Subitem) ON (e.uid)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (s:Subitem) ON (s.uid)'
+INFO - ✅ 인덱스
+INFO - 
+======================================================================
+INFO - 건축법 처리
+INFO - ======================================================================
+INFO - 📄 건축법(법률)(제21065호)(20251001).pdf
+INFO - ✅ 97,345자 (목차 4p 제외)
+INFO - ✅ BUILDING-Act: 147개 조항
+INFO - 🔨 BUILDING-Act (BuildingAct) 구축...
+INFO - ✅ BUILDING-Act
+INFO - 📄 건축법 시행령(대통령령)(제35811호)(20251001).pdf
+INFO - ✅ 125,803자 (목차 5p 제외)
+INFO - ✅ BUILDING-Decree: 136개 조항
+INFO - 🔨 BUILDING-Decree (BuildingDecree) 구축...
+INFO - ✅ BUILDING-Decree
+INFO - 📄 건축법 시행규칙(국토교통부령)(제01531호)(20251031).pdf
+INFO - ✅ 44,065자 (목차 2p 제외)
+INFO - ✅ BUILDING-Rule: 67개 조항
+INFO - 🔨 BUILDING-Rule (BuildingRule) 구축...
+INFO - ✅ BUILDING-Rule
+INFO - 
+======================================================================
+INFO - 건축물관리법 처리
+INFO - ======================================================================
+INFO - 📄 건축물관리법(법률)(제20549호)(20250604).pdf
+INFO - ✅ 35,954자 (목차 2p 제외)
+INFO - ✅ BUILDING_MGMT-Act: 59개 조항
+INFO - 🔨 BUILDING_MGMT-Act (BuildingMgmtAct) 구축...
+INFO - ✅ BUILDING_MGMT-Act
+INFO - 📄 건축물관리법 시행령(대통령령)(제35549호)(20250604).pdf
+INFO - ✅ 28,564자 (목차 0p 제외)
+INFO - ✅ BUILDING_MGMT-Decree: 44개 조항
+INFO - 🔨 BUILDING_MGMT-Decree (BuildingMgmtDecree) 구축...
+INFO - ✅ BUILDING_MGMT-Decree
+INFO - 📄 건축물관리법 시행규칙(국토교통부령)(제01495호)(20250602).pdf
+INFO - ✅ 12,757자 (목차 1p 제외)
+INFO - ✅ BUILDING_MGMT-Rule: 25개 조항
+INFO - 🔨 BUILDING_MGMT-Rule (BuildingMgmtRule) 구축...
+INFO - ✅ BUILDING_MGMT-Rule
+INFO - 
+======================================================================
+INFO - 🔗 관계 생성...
+INFO - 🔍 총 479개 조항 분석 시작...
+INFO - 💾 REFERS_TO 2670개 저장 중...
+INFO - 💾 DELEGATES_TO 623개 저장 중...
+INFO - 💾 CROSS_REFERS_TO 0개 저장 중...
+INFO - ✅ 관계 생성 완료
+INFO - ✅ 모든 작업 완료!
+INFO - 
+
+######################################################################
+INFO - 🚀 실행 시작: 2025-11-20 18:00:24
+INFO - ######################################################################
+
+INFO - ✅ Neo4j 연결
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Article) ON (e.uid)` has no effect.} {description: `RANGE INDEX index_9755e5ee FOR (e:Article) ON (e.uid)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (a:Article) ON (a.uid)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Article) ON (e.article_id)` has no effect.} {description: `RANGE INDEX index_8d08c679 FOR (e:Article) ON (e.article_id)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (a:Article) ON (a.article_id)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Article) ON (e.law_code)` has no effect.} {description: `RANGE INDEX index_9750b603 FOR (e:Article) ON (e.law_code)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (a:Article) ON (a.law_code)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Clause) ON (e.uid)` has no effect.} {description: `RANGE INDEX index_983f95a3 FOR (e:Clause) ON (e.uid)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (c:Clause) ON (c.uid)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Item) ON (e.uid)` has no effect.} {description: `RANGE INDEX index_ea216375 FOR (e:Item) ON (e.uid)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (i:Item) ON (i.uid)'
+INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX IF NOT EXISTS FOR (e:Subitem) ON (e.uid)` has no effect.} {description: `RANGE INDEX index_d0dc505c FOR (e:Subitem) ON (e.uid)` already exists.} {position: None} for query: 'CREATE INDEX IF NOT EXISTS FOR (s:Subitem) ON (s.uid)'
+INFO - ✅ 인덱스
+INFO - 
+======================================================================
+INFO - 건축법 처리
+INFO - ======================================================================
+INFO - 📄 건축법(법률)(제21065호)(20251001).pdf
+INFO - ✅ 97,345자 (목차 4p 제외)
+INFO - ✅ BUILDING-Act: 147개 조항
+INFO - 🔨 BUILDING-Act (BuildingAct) 구축...
+INFO - ✅ BUILDING-Act
+INFO - 📄 건축법 시행령(대통령령)(제35811호)(20251001).pdf
+INFO - ✅ 125,803자 (목차 5p 제외)
+INFO - ✅ BUILDING-Decree: 136개 조항
+INFO - 🔨 BUILDING-Decree (BuildingDecree) 구축...
+INFO - ✅ BUILDING-Decree
+INFO - 📄 건축법 시행규칙(국토교통부령)(제01531호)(20251031).pdf
+INFO - ✅ 44,065자 (목차 2p 제외)
+INFO - ✅ BUILDING-Rule: 67개 조항
+INFO - 🔨 BUILDING-Rule (BuildingRule) 구축...
+INFO - ✅ BUILDING-Rule
+INFO - 
+======================================================================
+INFO - 건축물관리법 처리
+INFO - ======================================================================
+INFO - 📄 건축물관리법(법률)(제20549호)(20250604).pdf
+INFO - ✅ 35,954자 (목차 2p 제외)
+INFO - ✅ BUILDING_MGMT-Act: 59개 조항
+INFO - 🔨 BUILDING_MGMT-Act (BuildingMgmtAct) 구축...
+INFO - ✅ BUILDING_MGMT-Act
+INFO - 📄 건축물관리법 시행령(대통령령)(제35549호)(20250604).pdf
+INFO - ✅ 28,564자 (목차 0p 제외)
+INFO - ✅ BUILDING_MGMT-Decree: 44개 조항
+INFO - 🔨 BUILDING_MGMT-Decree (BuildingMgmtDecree) 구축...
+INFO - ✅ BUILDING_MGMT-Decree
+INFO - 📄 건축물관리법 시행규칙(국토교통부령)(제01495호)(20250602).pdf
+INFO - ✅ 12,757자 (목차 1p 제외)
+INFO - ✅ BUILDING_MGMT-Rule: 25개 조항
+INFO - 🔨 BUILDING_MGMT-Rule (BuildingMgmtRule) 구축...
+INFO - ✅ BUILDING_MGMT-Rule
+INFO - 
+======================================================================
+INFO - 🔗 관계 생성...
+INFO - 🔍 총 479개 조항 분석 시작...
+INFO - 💾 REFERS_TO 2670개 저장 중...
+INFO - 💾 DELEGATES_TO 623개 저장 중...
+INFO - 💾 CROSS_REFERS_TO 0개 저장 중...
+INFO - ✅ 관계 생성 완료
+INFO - 
+======================================================================
+📊 Graph Database 통계
+======================================================================
+
+[법령별 조항 수]
+
+건축법
+  Act     :  148개
+  Decree  :  136개
+  Rule    :   67개
+
+
+건축물관리법
+  Act     :   59개
+  Decree  :   44개
+  Rule    :   25개
+
+
+전체 노드:
+  Article  : 479
+  Clause   : 1,480
+  Item     : 2,026
+  Subitem  : 371
+  합계     : 4,356
+
+[관계:]
+  CONTAINS       : 3,877
+  REFERS_TO      : 1,571
+  DELEGATES_TO   : 356
+  CROSS_REFERS_TO: 58
+  합계           : 5,862
+======================================================================
+
+INFO - ✅ 모든 작업 완료!
+INFO - 
+
+######################################################################
+INFO - 🚀 실행 시작: 2025-12-15 16:26:14
+INFO - ######################################################################
+
+INFO - Use pytorch device_name: cuda:0
+INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v1
+INFO - ✅ 임베딩 모델 로드: distiluse-base-multilingual-cased-v1 (512차원)
+INFO - ✅ Neo4j 연결
+WARNING - ⚠️  벡터 인덱스 생성 실패 (버전 확인 필요): Cannot resolve address 28e591d1.databases.neo4j.io:7687
+INFO - ✅ 인덱스
+INFO - 
+======================================================================
+INFO - 건축법 처리
+INFO - ======================================================================
+INFO - 📄 건축법(법률)(제21065호)(20251001).pdf
+INFO - ✅ 97,345자 (목차 4p 제외)
+INFO - ✅ BUILDING-Act: 147개 조항
+INFO - 🔨 BUILDING-Act (BuildingAct) 구축...
+ERROR - ❌ Cannot resolve address 28e591d1.databases.neo4j.io:7687
+Traceback (most recent call last):
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_async_compat/network/_util.py", line 144, in _dns_resolver
+    info = NetworkUtil.get_address_info(
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_async_compat/network/_util.py", line 130, in get_address_info
+    return socket.getaddrinfo(host, port, family, type, proto, flags)
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jaehyeonpark/Desktop/rag/neo4j_build_graph.py", line 812, in main
+    builder.build(parsed, law_def)
+  File "/home/jaehyeonpark/Desktop/rag/neo4j_build_graph.py", line 464, in build
+    self._build_article(session, art, law_code, law_type, label)
+  File "/home/jaehyeonpark/Desktop/rag/neo4j_build_graph.py", line 477, in _build_article
+    session.run(f"""
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_sync/work/session.py", line 315, in run
+    self._connect(self._config.default_access_mode)
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_sync/work/session.py", line 136, in _connect
+    super()._connect(
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_sync/work/workspace.py", line 186, in _connect
+    target_db = self._get_routing_target_database(
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_sync/work/workspace.py", line 260, in _get_routing_target_database
+    self._pool.update_routing_table(
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_sync/io/_pool.py", line 985, in update_routing_table
+    self._update_routing_table_from(
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_sync/io/_pool.py", line 913, in _update_routing_table_from
+    for address in NetworkUtil.resolve_address(
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_async_compat/network/_util.py", line 196, in resolve_address
+    for address_dns_resolved in NetworkUtil._dns_resolver(
+  File "/home/jaehyeonpark/miniconda3/envs/rag-playground/lib/python3.10/site-packages/neo4j/_async_compat/network/_util.py", line 151, in _dns_resolver
+    raise ValueError(f"Cannot resolve address {address}") from e
+ValueError: Cannot resolve address 28e591d1.databases.neo4j.io:7687
+INFO - 
+
+######################################################################
+INFO - 🚀 실행 시작: 2025-12-15 16:27:03
+INFO - ######################################################################
+
+INFO - ✅ Neo4j 연결
+INFO - ✅ 인덱스
+INFO - 
+======================================================================
+INFO - 건축법 처리
+INFO - ======================================================================
+INFO - 📄 건축법(법률)(제21065호)(20251001).pdf
+INFO - ✅ 97,345자 (목차 4p 제외)
+INFO - ✅ BUILDING-Act: 147개 조항
+INFO - 🔨 BUILDING-Act (BuildingAct) 구축...
+INFO - ✅ BUILDING-Act
+INFO - 📄 건축법 시행령(대통령령)(제35811호)(20251001).pdf
+INFO - ✅ 125,803자 (목차 5p 제외)
+INFO - ✅ BUILDING-Decree: 136개 조항
+INFO - 🔨 BUILDING-Decree (BuildingDecree) 구축...
+INFO - ✅ BUILDING-Decree
+INFO - 📄 건축법 시행규칙(국토교통부령)(제01531호)(20251031).pdf
+INFO - ✅ 44,065자 (목차 2p 제외)
+INFO - ✅ BUILDING-Rule: 67개 조항
+INFO - 🔨 BUILDING-Rule (BuildingRule) 구축...
+INFO - ✅ BUILDING-Rule
+INFO - 
+======================================================================
+INFO - 건축물관리법 처리
+INFO - ======================================================================
+INFO - 📄 건축물관리법(법률)(제20549호)(20250604).pdf
+INFO - ✅ 35,954자 (목차 2p 제외)
+INFO - ✅ BUILDING_MGMT-Act: 59개 조항
+INFO - 🔨 BUILDING_MGMT-Act (BuildingMgmtAct) 구축...
+INFO - ✅ BUILDING_MGMT-Act
+INFO - 📄 건축물관리법 시행령(대통령령)(제35549호)(20250604).pdf
+INFO - ✅ 28,564자 (목차 0p 제외)
+INFO - ✅ BUILDING_MGMT-Decree: 44개 조항
+INFO - 🔨 BUILDING_MGMT-Decree (BuildingMgmtDecree) 구축...
+INFO - ✅ BUILDING_MGMT-Decree
+INFO - 📄 건축물관리법 시행규칙(국토교통부령)(제01495호)(20250602).pdf
+INFO - ✅ 12,757자 (목차 1p 제외)
+INFO - ✅ BUILDING_MGMT-Rule: 25개 조항
+INFO - 🔨 BUILDING_MGMT-Rule (BuildingMgmtRule) 구축...
+INFO - ✅ BUILDING_MGMT-Rule
+INFO - 
+======================================================================
+INFO - 🔗 관계 생성...
+INFO - 🔍 총 478개 조항 분석 시작...
+INFO - 💾 REFERS_TO 2666개 저장 중...
+INFO - 💾 DELEGATES_TO 623개 저장 중...
+INFO - 💾 CROSS_REFERS_TO 0개 저장 중...
+INFO - ✅ 관계 생성 완료
+WARNING - Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownRelationshipTypeWarning} {category: UNRECOGNIZED} {title: The provided relationship type is not in the database.} {description: One of the relationship types in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing relationship type is: CROSS_REFERS_TO)} {position: line: 1, column: 13, offset: 12} for query: 'MATCH ()-[r:CROSS_REFERS_TO]->() RETURN count(r)'
+INFO - 
+======================================================================
+📊 Graph Database 통계
+======================================================================
+
+[법령별 조항 수]
+
+건축법
+  Act     :  147개
+  Decree  :  136개
+  Rule    :   67개
+
+
+건축물관리법
+  Act     :   59개
+  Decree  :   44개
+  Rule    :   25개
+
+
+전체 노드:
+  Article  : 478
+  Clause   : 1,407
+  Item     : 1,724
+  Subitem  : 280
+  합계     : 3,889
+
+[관계:]
+  CONTAINS       : 3,411
+  REFERS_TO      : 1,385
+  DELEGATES_TO   : 356
+  CROSS_REFERS_TO: 0
+  합계           : 5,152
+======================================================================
+
+INFO - ✅ 모든 작업 완료!
+INFO - 
+
+######################################################################
+INFO - 🚀 실행 시작: 2025-12-18 13:27:14
+INFO - ######################################################################
+
+INFO - ✅ Neo4j 연결
+INFO - ✅ 인덱스
+INFO - 
+======================================================================
+INFO - 건축법 처리
+INFO - ======================================================================
+INFO - 📄 건축법(법률)(제21065호)(20251001).pdf
+INFO - ✅ 97,345자 (목차 4p 제외)
+INFO - ✅ BUILDING-Act: 147개 조항
+INFO - 🔨 BUILDING-Act (BuildingAct) 구축...
+INFO - ✅ BUILDING-Act
+INFO - 📄 건축법 시행령(대통령령)(제35811호)(20251001).pdf
+INFO - ✅ 125,803자 (목차 5p 제외)
+INFO - ✅ BUILDING-Decree: 136개 조항
+INFO - 🔨 BUILDING-Decree (BuildingDecree) 구축...
+INFO - ✅ BUILDING-Decree
+INFO - 📄 건축법 시행규칙(국토교통부령)(제01531호)(20251031).pdf
+INFO - ✅ 44,065자 (목차 2p 제외)
+INFO - ✅ BUILDING-Rule: 67개 조항
+INFO - 🔨 BUILDING-Rule (BuildingRule) 구축...
+INFO - ✅ BUILDING-Rule
+INFO - 
+======================================================================
+INFO - 건축물관리법 처리
+INFO - ======================================================================
+INFO - 📄 건축물관리법(법률)(제20549호)(20250604).pdf
+INFO - ✅ 35,954자 (목차 2p 제외)
+INFO - ✅ BUILDING_MGMT-Act: 59개 조항
+INFO - 🔨 BUILDING_MGMT-Act (BuildingMgmtAct) 구축...
+INFO - ✅ BUILDING_MGMT-Act
+INFO - 📄 건축물관리법 시행령(대통령령)(제35549호)(20250604).pdf
+INFO - ✅ 28,564자 (목차 0p 제외)
+INFO - ✅ BUILDING_MGMT-Decree: 44개 조항
+INFO - 🔨 BUILDING_MGMT-Decree (BuildingMgmtDecree) 구축...
+INFO - ✅ BUILDING_MGMT-Decree
+INFO - 📄 건축물관리법 시행규칙(국토교통부령)(제01495호)(20250602).pdf
+INFO - ✅ 12,757자 (목차 1p 제외)
+INFO - ✅ BUILDING_MGMT-Rule: 25개 조항
+INFO - 🔨 BUILDING_MGMT-Rule (BuildingMgmtRule) 구축...
+INFO - ✅ BUILDING_MGMT-Rule
+INFO - 
+======================================================================
+INFO - 🔗 관계 생성...
+INFO - 🔍 총 478개 조항 분석 시작...
+INFO - 💾 REFERS_TO 2666개 저장 중...
+INFO - 💾 DELEGATES_TO 623개 저장 중...
+INFO - 💾 CROSS_REFERS_TO 0개 저장 중...
+INFO - ✅ 관계 생성 완료
+WARNING - Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownRelationshipTypeWarning} {category: UNRECOGNIZED} {title: The provided relationship type is not in the database.} {description: One of the relationship types in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing relationship type is: CROSS_REFERS_TO)} {position: line: 1, column: 13, offset: 12} for query: 'MATCH ()-[r:CROSS_REFERS_TO]->() RETURN count(r)'
+INFO - 
+======================================================================
+📊 Graph Database 통계
+======================================================================
+
+[법령별 조항 수]
+
+건축법
+  Act     :  147개
+  Decree  :  136개
+  Rule    :   67개
+
+
+건축물관리법
+  Act     :   59개
+  Decree  :   44개
+  Rule    :   25개
+
+
+전체 노드:
+  Article  : 478
+  Clause   : 1,407
+  Item     : 1,724
+  Subitem  : 280
+  합계     : 3,889
+
+[관계:]
+  CONTAINS       : 3,411
+  REFERS_TO      : 1,385
+  DELEGATES_TO   : 356
+  CROSS_REFERS_TO: 0
+  합계           : 5,152
+======================================================================
+
+INFO - ✅ 모든 작업 완료!
