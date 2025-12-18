@@ -4,4 +4,4 @@ pdf_data/
 raw_data.pdf
 debug_texts/
 credential.txt
-database/
+*.env

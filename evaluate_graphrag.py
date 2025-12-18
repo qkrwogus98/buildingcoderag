@@ -10,7 +10,7 @@ import sys
 import json
 import logging
 import argparse
-from typing import List, Dict
+from typing import List, Dict, Optional
 from datetime import datetime
 
 # database 모듈 경로 추가

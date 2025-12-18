@@ -1,0 +1,3539 @@
+{
+  "timestamp": "2025-12-18T17:11:56.735878",
+  "total_cases": 59,
+  "results": [
+    {
+      "case_id": "12-0559",
+      "category": "대지와 도로",
+      "title": "건축물 대지와 도로 접의무 적용 예외",
+      "question": "건축물의 대지가 반드시 건축법상 도로에 접하여야 하는지 여부",
+      "expected_answer": "건축법상 적용 제외 시 대지가 도로에 접하지 않아도 됨",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제44조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제4조의4"
+        ],
+        [
+          "BUILDING",
+          "제13조의2"
+        ],
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제22조"
+        ],
+        [
+          "BUILDING",
+          "제85조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제70조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "16-0162",
+      "category": "대지와 도로",
+      "title": "건축법 도로 정의의 엄격한 적용",
+      "question": "지목이 도로이고 사실상 도로 사용 시 건축법상 도로로 인정 여부",
+      "expected_answer": "지목 도로도 건축법 도로 정의 미충족 시 접도 대상 아님",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제44조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 3,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제45조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ]
+      ],
+      "recall": 0.5,
+      "precision": 0.3333333333333333,
+      "f1_score": 0.4,
+      "success": true
+    },
+    {
+      "case_id": "16-0229",
+      "category": "대지와 도로",
+      "title": "대형 건축물의 강화된 접도의무",
+      "question": "연면적 2,000m² 이상 건축물의 출입 지장 시 강화된 접도 기준 적용 여부",
+      "expected_answer": "2,000m² 이상 건축물도 접도 예외 적용 불가",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제28조"
+        ],
+        [
+          "BUILDING",
+          "제44조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제27조"
+        ],
+        [
+          "BUILDING",
+          "제48조의3"
+        ],
+        [
+          "BUILDING",
+          "제16조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제23조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제105조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제106조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "16-0633",
+      "category": "대지와 도로",
+      "title": "도로 너비 산정 기준",
+      "question": "도로 너비 산정 시 차도·보도 외 시설 포함 여부",
+      "expected_answer": "도로 너비에 연석선·길어깨 등 포함",
+      "expected_laws": [
+        [
+          "도로의 구조·시설기준에 관한 규칙",
+          "제10조"
+        ],
+        [
+          "도로의 구조·시설기준에 관한 규칙",
+          "제16조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제22조"
+        ],
+        [
+          "BUILDING",
+          "제85조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제19조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.3333333333333333,
+      "precision": 0.1,
+      "f1_score": 0.15384615384615383,
+      "success": true
+    },
+    {
+      "case_id": "17-0651",
+      "category": "대지와 도로",
+      "title": "개발행위허가 도로의 법적 효력",
+      "question": "개발행위허가 시 설치된 진입도로의 건축법 도로 인정 여부",
+      "expected_answer": "개발행위허가 도로도 건축법 도로 지정 필수",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제6조의2"
+        ],
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제20조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제50조의2"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제15조"
+        ],
+        [
+          "BUILDING",
+          "제10조"
+        ]
+      ],
+      "recall": 0.5,
+      "precision": 0.1111111111111111,
+      "f1_score": 0.1818181818181818,
+      "success": true
+    },
+    {
+      "case_id": "18-0087",
+      "category": "대지와 도로",
+      "title": "접도의무 적용 구간",
+      "question": "2m 이상 접도의무 규정의 적용 범위",
+      "expected_answer": "접도의무는 당해 도로 전체 구간에 적용",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제44조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제22조"
+        ],
+        [
+          "BUILDING",
+          "제85조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제105조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "19-0541",
+      "category": "대지와 도로",
+      "title": "건축심의와 도로 요건의 관계",
+      "question": "건축심의 거쳐 도로 지정 시 너비 요건 적용 여부",
+      "expected_answer": "건축심의 시 도로 너비 요건 충족 필수",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제44조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제18조"
+        ],
+        [
+          "BUILDING",
+          "제13조의2"
+        ],
+        [
+          "BUILDING",
+          "제5조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제52조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제19조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0521",
+      "category": "대지와 도로",
+      "title": "접도의무 예외의 허가권자 인정",
+      "question": "광장/공원 등 접도의무 예외에서 허가권자 인정 요건 여부",
+      "expected_answer": "광장/공원 등 접도의무 예외 적용 시 허가권자 인정 필요",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제44조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다. 다른 키워드로 검색해보세요.",
+      "retrieved_sources": 0,
+      "retrieved_laws": [],
+      "recall": 0.0,
+      "precision": 0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0594",
+      "category": "건설법",
+      "title": "다가구주택의 세대수 요건 판단기준",
+      "question": "전체 사업부지 내의 세대수가 19세대를 초과하는 주택을 건축하려는 경우로서 사용승인을 신청할 때 필지별 세대수가 19세대 이하가 되도록 필지를 분할하는 것을 조건으로 건축허가를 하는 경우, 해당 주택은 분할 예정인 필지 내의 세대수를 기준으로 하여 「건축법 시행령」 별표 1 제1호 다목에 따른 다가구주택에 해당하는지, 아니면 전체 사업부지의 세대수를 기준으로 하여 같은 별표 제2호에 따른 공동주택에 해당하는지?",
+      "expected_answer": "주택은 분할 예정인 필지 내의 세대수를 기준으로 해야 하므로, 「건축법」 제2조 제2항 제1호 및 같은 법 시행령 별표 1 제1호 다목에 따른 다가구주택에 해당함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "별표"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제25조의2"
+        ],
+        [
+          "BUILDING",
+          "제110조"
+        ],
+        [
+          "BUILDING",
+          "제60조"
+        ],
+        [
+          "BUILDING",
+          "제77조의14"
+        ],
+        [
+          "BUILDING",
+          "제61조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제49조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제77조의13"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "10-0317",
+      "category": "건설법",
+      "title": "대지 지상권이 해제되지 않은 경우 20세대 미만 다세대주택 건축 허가신청 반려 가능 여부",
+      "question": "지상권이 설정된 대지의 소유자가 그 지상권자로부터 대지 사용에 대한 동의를 얻은 후, 분양을 목적으로 하는 20세대 미만의 다세대주택을 신축하기 위하여 「건축법」제11조, 같은 법 시행령 제9조 및 같은 법 시행규칙 제6조에 따라 건축허가를 신청한 경우, 허가권자가 그 건축할 대지에 설정된 지상권이 해제되지 않았다는 이유로 이를 반려할 수 있는지?",
+      "expected_answer": "허가권자는 그 건축할 대지에 설정된 지상권이 해제되지 않았다는 이유로 이를 반려할 수 없음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제6조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제13조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제29조"
+        ],
+        [
+          "BUILDING",
+          "제20조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제17조의2"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제48조"
+        ]
+      ],
+      "recall": 0.5,
+      "precision": 0.1,
+      "f1_score": 0.16666666666666669,
+      "success": true
+    },
+    {
+      "case_id": "11-0286",
+      "category": "건설법",
+      "title": "분양을 목적으로 하는 20세대 미만 다세대주택 건축 시 대지에 설정된 저당권 말소 필요 여부",
+      "question": "저당권이 설정된 대지의 소유자가 저당권이 말소되지 아니한 상태에서, 분양을 목적으로 하는 20세대 미만의 다세대주택을 신축하기 위하여 「건축법 」제11조에 따라 건축허가를 신청한 경우, 건축할 대지에 설정된 저당권이 말소되지 아니하였다는 이유로 이를 거부할 수 있는지?",
+      "expected_answer": "그 건축할 대지에 설정된 저당권이 말소되지 아니하였다는 이유로 건축허가 신청을 거부할 수는 없음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제13조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제29조"
+        ],
+        [
+          "BUILDING",
+          "제20조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제17조의2"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제48조"
+        ]
+      ],
+      "recall": 1.0,
+      "precision": 0.1,
+      "f1_score": 0.18181818181818182,
+      "success": true
+    },
+    {
+      "case_id": "15-0037",
+      "category": "건설법",
+      "title": "건축허가 신청 시 대지의 소유에 관한 권리를 증명하는 서류",
+      "question": "「건축법 시행규칙」 제6조 제1항 제1호의2 나목에 따라 분양을 목적으로 20세대 미만 공동주택의 건축허가 신청을 하려는 대지소유자가 대지의 소유에 관한 권리를 증명하는 서류를 제출할 경우, 그 대지에 근저당권과 지상권이 동시에 설정되어 있다면 그 근저당권 및 지상권을 말소해야 하는지?",
+      "expected_answer": "그 대지에 근저당권과 지상권이 동시에 설정되어 있더라도 반드시 그 근저당권 및 지상권을 말소해야 한는 것은 아님.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제6조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "16-0509",
+      "category": "건설법",
+      "title": "건축허가의 요건인 \"해당 대지의 소유권을 확보\"하는 것의 의미",
+      "question": "건축법 제11조 제1항에 따라 분양을 목적으로 하는 공동주택의 건축 허가를 받은 후 건축주가 「신탁법」에 따라 신탁회사에 해당 건축 대지의 소유 명의를 이전하여 건축 대지를 담보신탁한 경우, 위탁자인 건축주가 해당 건축대지의 소유권을 확보하고 있는 것으로 보아 건축허가 요건을 충족한다고 할 수 있는지?",
+      "expected_answer": "위탁자인 건축주가 해당 건축대지의 소유권을 확보하고 있는 것으로 볼 수 없으므로 건축허가 요건을 충족한다고 할 수 없음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제4조의4"
+        ],
+        [
+          "BUILDING",
+          "제80조의2"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제80조"
+        ],
+        [
+          "BUILDING",
+          "제52조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "18-0644",
+      "category": "건설법",
+      "title": "집합건축물의 재건축 시 대지 소유권 확보 여부에 적용되는 규정",
+      "question": "「건축법 시행령」 제9조의2제1항 각 호의 어느 하나에 해당하는 사유로 재축 등을 하기 위해 집합건축물에 대하여 「집합건물의 소유 및 관리에 관한 법률」 제47조 제1항 및 제2항에 따라 구분소유자의 5분의 4 이상 및 의결권의 5분의 4 이상의 결의로 재건축 결의를 한 경우, 건축허가 신청을 위한 대지 소유권 확보와 관련하여 「건축법」 제11조 제11항 제2호를 적용할 수 있는지?",
+      "expected_answer": "「건축법」 제11조 제11항 제2호는 적용되지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "19-0480",
+      "category": "건설법",
+      "title": "둘 이상의 필지를 하나의 대지로 하여 건축허가를 받으려는 경우의 소유권 확보의 의미",
+      "question": "「건축법」 제11조 제11항 제1호 단서에 따르면 분양을 목적으로 하는 공동주택의 건축허가를 받으려는 자는 해당 대지의 소유권을 확보해야 하는바, A필지는 甲이 단독으로 소유하고 있고 B필지는 乙이 단독으로 소유하고 있으면서 A필지와 B필지를 하나의 대지로 하여 甲과 乙이 공동으로 분양을 목적으로 하는 공동주택의 건축허가를 받으려는 경우 해당 대지의 소유권을 확보한 것으로 볼 수 있는지?",
+      "expected_answer": "해당 대지의 소유권을 확보한 것으로 볼 수 없음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제31조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제7조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "22-0030",
+      "category": "건설법",
+      "title": "건축허가 신청 시 대지 사용 권원의 유효기간 고려 여부",
+      "question": "건축주가 「건축법」 제11조 제11항 제1호 본문에 따른 건축허가의 요건인 \"대지를 사용할 수 있는 권원\"을 확보했는지를 판단할 때, 허가권자는 그 권원의 유효기간을 고려할 수 있는지?",
+      "expected_answer": "허가권자는 그 권원의 유효기간을 고려할 수 있음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제41조"
+        ],
+        [
+          "BUILDING",
+          "제48조의3"
+        ],
+        [
+          "BUILDING",
+          "제16조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제22조"
+        ],
+        [
+          "BUILDING",
+          "제25조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제38조"
+        ],
+        [
+          "BUILDING",
+          "제105조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ]
+      ],
+      "recall": 1.0,
+      "precision": 0.1,
+      "f1_score": 0.18181818181818182,
+      "success": true
+    },
+    {
+      "case_id": "18-0283",
+      "category": "건축법 특례 중첩 적용",
+      "title": "건축법 특례 중첩 적용 가능 여부",
+      "question": "가로구역의 건축물이 「건축법」제8조 및 제43조 제2항의 요건을 모두 갖춘 경우, 해당 건축물의 높이는 100분의 120의 범위에서 정해야 하는지, 아니면 100분의 120의 범위를 초과하여 정할 수 있는지?",
+      "expected_answer": "해당 건축물의 높이는 그 건축물에 적용하는 높이기준의 100분의 120 범위에서 정해야 함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제43조"
+        ],
+        [
+          "BUILDING",
+          "제8조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제82조"
+        ],
+        [
+          "BUILDING",
+          "제117조"
+        ],
+        [
+          "BUILDING",
+          "제60조"
+        ],
+        [
+          "BUILDING",
+          "제75조"
+        ],
+        [
+          "BUILDING",
+          "제56조"
+        ],
+        [
+          "BUILDING",
+          "제77조의2"
+        ],
+        [
+          "BUILDING",
+          "제77조의3"
+        ],
+        [
+          "BUILDING",
+          "제77조의13"
+        ],
+        [
+          "BUILDING",
+          "제57조"
+        ],
+        [
+          "BUILDING",
+          "제77조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "20-0308",
+      "category": "대지 안의 공지 규정 및 증축 범위",
+      "title": "대지 안의 공지 규정 및 증축 범위",
+      "question": "「건축법 시행령」 제6조의2 제2항 제5호에 따른 건축조례 시행일 이전에 건축된 건축물로서 건축선 및 인접 대지경계선으로부터의 거리가 미달된 경우, 같은 규정에 따라 허용되는 증축의 범위에 수평증축이 포함되는지?",
+      "expected_answer": "「건축법 시행령」 제6조의2 제2항 제5호에 따라 허용되는 증축의 범위에 수평증축은 포함되지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제6조의2"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "10-0265",
+      "category": "건축주 변경 신고 서류",
+      "title": "건축주 변경 신고 서류 제출 여부",
+      "question": "건축 중인 건축물을 양수함에 따라 건축주 변경 신고 시, 「건축법 시행규칙」 제6조에 따라 대지 소유 또는 사용 권리 증명 서류를 제출해야 하는지?",
+      "expected_answer": "건축 중인 건축물을 양수함에 따라 건축주 변경 신고 시, 양수인은 '건축할 대지의 범위와 그 대지의 소유 또는 사용 권리를 증명하는 서류'를 제출하지 않아도 됨.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제6조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제4조의2"
+        ],
+        [
+          "BUILDING",
+          "제13조의2"
+        ],
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제22조"
+        ],
+        [
+          "BUILDING",
+          "제85조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제70조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "11-0359",
+      "category": "건축 관계자 변경 신고 서류 범위",
+      "title": "권리관계 변경 증명 서류 범위",
+      "question": "등기가 되어 있는 대수선 중인 건축물을 매매로 양수한 경우, 부동산 등기부등본이 권리관계 변경사실을 증명할 수 있는 서류에 해당하는지?",
+      "expected_answer": "등기가 되어 있는 대수선 중인 건축물을 매매로 양수한 경우, 부동산 등기부등본은 「건축법 시행규칙」 제11조 제1항의 '권리관계 변경사실을 증명할 수 있는 서류'에 해당됨.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제48조의3"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제22조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제38조"
+        ],
+        [
+          "BUILDING",
+          "제105조"
+        ],
+        [
+          "BUILDING",
+          "제70조"
+        ],
+        [
+          "BUILDING",
+          "제6조"
+        ]
+      ],
+      "recall": 1.0,
+      "precision": 0.1,
+      "f1_score": 0.18181818181818182,
+      "success": true
+    },
+    {
+      "case_id": "18-0716",
+      "category": "신탁계약 매각 시 건축 관계자 변경 신고",
+      "title": "신탁계약 매각 시 건축 관계자 변경 신고",
+      "question": "「신탁법」상 신탁계약에 따라 공개입찰 또는 경매로 건축물을 매각한 경우, 건축 관계자 변경신고 대상이 되는지?",
+      "expected_answer": "신탁계약에 따라 공개입찰 또는 경매로 건축물을 매각한 경우, 「건축법 시행규칙」 제11조 제1항 제1호의 '건축물을 양도한 경우'에 해당하여 건축 관계자 변경신고 대상이 됨.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제4조의2"
+        ],
+        [
+          "BUILDING",
+          "제13조의2"
+        ],
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제22조"
+        ],
+        [
+          "BUILDING",
+          "제85조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제70조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0290",
+      "category": "건축주 변경신고와 농지전용 변경허가 의제",
+      "title": "건축주 변경신고와 농지전용 변경허가 의제",
+      "question": "건축허가 시 농지전용허가를 의제받아 건축 중 소유권 이전 시, 건축주 변경신고로 농지전용 변경허가 의제가 가능한지?",
+      "expected_answer": "「건축법 시행령」 제12조 제1항 제3호에 따른 건축주 변경신고를 통해 「농지법 시행령」 제32조 제5항 제3호에 따른 농지전용 변경허가를 의제받을 수 있음.",
+      "expected_laws": [
+        [
+          "농지법 시행령",
+          "제32조"
+        ],
+        [
+          "BUILDING",
+          "제12조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제4조의4"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제8조"
+        ],
+        [
+          "BUILDING",
+          "제56조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ],
+        [
+          "BUILDING",
+          "제10조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "12-0112",
+      "category": "건축물 용도변경 시 준용 규정",
+      "title": "건축물 용도변경 시 준용 규정 적용",
+      "question": "「건축법」 제19조 제3항에 따라 시설군 내 용도변경 시, 같은 조 제7항에 따라 「건축법」 제3조, 제5조 및 「국토계획법」 제54조를 준용하는지?",
+      "expected_answer": "「건축법」 제19조 제3항에 따라 용도변경 시 같은 조 제7항을 적용하여 「건축법」 제3조, 제5조 및 「국토계획법」 제54조를 준용함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제19조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제31조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제7조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "12-0226",
+      "category": "용도변경 시 제출 도서 범위",
+      "title": "용도변경 시 제출 도서 범위",
+      "question": "「건축법 시행규칙」 제12조의2 제1항 제2호에 따라 용도변경 시 내화·방화·피난과 건축설비 사항 중 변경되는 사항을 모두 표시한 도서를 제출해야 하는지?",
+      "expected_answer": "용도변경에 따라 내화·방화·피난 및 건축설비 사항이 모두 변경되는 경우, 해당 사항을 모두 표시한 도서를 제출해야 함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제12조의2"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "17-0107",
+      "category": "용도변경 시 구조 안전 확인 서류 제출",
+      "title": "용도변경 시 구조 안전 확인 서류 제출",
+      "question": "「건축법 시행령」 제32조 제2항 각 호에 해당하는 건축물을 용도변경 시 구조 안전 확인 서류 제출이 필요한지?",
+      "expected_answer": "「건축법 시행령」 제32조 제2항 각 호에 해당하는 건축물을 용도변경 시, 구조 안전 확인 서류를 허가권자에게 제출해야 함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제19조"
+        ],
+        [
+          "BUILDING",
+          "제32조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "18-0076",
+      "category": "용도변경 시 건축물대장 변경 절차",
+      "title": "용도변경 시 건축물대장 변경 절차",
+      "question": "사용승인 없이 용도변경 신고 후, 건축물대장 표시사항 변경을 위해 소유자가 별도로 변경 신청을 해야 하는지?",
+      "expected_answer": "사용승인 없이 용도변경 신고 후, 건축물대장 표시사항 변경을 위해 소유자가 별도로 건축물대장 기재사항 변경 신청을 해야 함.",
+      "expected_laws": [
+        [
+          "건축물대장의 기재 및 관리 등에 관한 규칙",
+          "제18조"
+        ],
+        [
+          "BUILDING",
+          "제19조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제48조의3"
+        ],
+        [
+          "BUILDING",
+          "제16조"
+        ],
+        [
+          "BUILDING",
+          "제44조"
+        ],
+        [
+          "BUILDING",
+          "제22조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제38조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제19조"
+        ],
+        [
+          "BUILDING",
+          "제15조"
+        ]
+      ],
+      "recall": 0.5,
+      "precision": 0.1,
+      "f1_score": 0.16666666666666669,
+      "success": true
+    },
+    {
+      "case_id": "11-0674",
+      "category": "필로티 구조의 바닥면적 산입",
+      "title": "필로티 구조의 바닥면적 산입 여부",
+      "question": "벽면적의 2분의 1 이상이 공간이며 벽 상부에 위층 건축물이 없는 경우에도 필로티나 유사 구조로 보아 바닥면적에서 제외하는지?",
+      "expected_answer": "벽면적의 2분의 1 이상이 공간이며 벽 상부에 위층 건축물이 없는 경우, 「건축법 시행령」 제119조 제1항 제3호 다목이 적용되지 않아 바닥면적에 산입함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제119조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제18조"
+        ],
+        [
+          "BUILDING",
+          "제119조"
+        ],
+        [
+          "BUILDING",
+          "제55조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제18조의2"
+        ],
+        [
+          "BUILDING",
+          "제40조"
+        ],
+        [
+          "BUILDING",
+          "제24조"
+        ],
+        [
+          "BUILDING",
+          "제81조"
+        ],
+        [
+          "BUILDING",
+          "제119조의6"
+        ]
+      ],
+      "recall": 1.0,
+      "precision": 0.1,
+      "f1_score": 0.18181818181818182,
+      "success": true
+    },
+    {
+      "case_id": "12-0278",
+      "category": "필로티 구조의 높이 산정",
+      "title": "필로티 구조의 높이 산정 기준",
+      "question": "1층 전체에 필로티가 설치되는 공동주택 건축 시, 「건축법」 제61조 제1항의 높이 기준에서 필로티 층고를 제외할 수 있는지?",
+      "expected_answer": "1층 전체에 필로티가 설치되는 공동주택 건축 시, 「건축법」 제61조 제1항의 높이 기준에는 필로티 층고를 제외할 수 없음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제119조"
+        ],
+        [
+          "BUILDING",
+          "제61조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제25조의2"
+        ],
+        [
+          "BUILDING",
+          "제6조의2"
+        ],
+        [
+          "BUILDING",
+          "제110조"
+        ],
+        [
+          "BUILDING",
+          "제8조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제49조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제6조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "17-0041",
+      "category": "필로티 주차장과 주택 층수 산정",
+      "title": "필로티 주차장과 주택 층수 산정",
+      "question": "단지형 연립주택 1층의 일부를 필로티 주차장으로 사용하고 나머지를 주택 외 용도로 사용하는 경우, 해당 1층이 '주택으로 쓰는 층수'에 포함되는지?",
+      "expected_answer": "단지형 연립주택 1층의 일부를 필로티 주차장으로 사용하고 나머지를 주택 외 용도로 사용하는 경우, 해당 1층은 '주택으로 쓰는 층수'에 포함됨.",
+      "expected_laws": [
+        [
+          "주택법 시행령",
+          "제10조"
+        ],
+        [
+          "BUILDING",
+          "별표"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제53조"
+        ],
+        [
+          "BUILDING",
+          "제63조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제19조"
+        ],
+        [
+          "BUILDING",
+          "제63조의7"
+        ],
+        [
+          "BUILDING",
+          "제19조의2"
+        ],
+        [
+          "BUILDING",
+          "제61조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제19조"
+        ],
+        [
+          "BUILDING",
+          "제6조"
+        ],
+        [
+          "BUILDING",
+          "제10조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "09-0198",
+      "category": "대지 조성용 옹벽 적용 범위",
+      "title": "대지 조성용 옹벽의 적용 범위",
+      "question": "대지를 조성하기 위한 것이 아닌 옹벽(도로용, 농지개량용)에도 건축법령이 적용되는지?",
+      "expected_answer": "대지를 조성하기 위한 것이 아닌 옹벽(예: 도로용, 농지개량용)에는 건축법령이 적용되지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제118조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제41조"
+        ],
+        [
+          "BUILDING",
+          "제6조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제40조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.5,
+      "precision": 0.1,
+      "f1_score": 0.16666666666666669,
+      "success": true
+    },
+    {
+      "case_id": "12-0275",
+      "category": "신고 대상 공작물의 범위",
+      "title": "신고 대상 공작물의 범위 해석",
+      "question": "「건축법 시행령」 제118조 제1항 제9호에 따라 건축조례에서 정하지 않은 제조시설도 신고 대상인지?",
+      "expected_answer": "제조시설이 건축조례의 '그 밖에 이와 비슷한 것'에 포함되는 경우에만 신고 대상 공작물에 해당됨.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제118조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "14-0840, 15-0003, 2015.1.26.",
+      "category": "일조 등의 확보를 위한 건축물 높이 제한 규정의 예외 적용 범위",
+      "title": "일조 등의 확보를 위한 건축물 높이 제한 규정의 예외 적용 범위",
+      "question": "구 「건축법 시행령」 제86조제1항 단서에 따라, 두 대지가 도로에 접하면서 그 도로를 사이에 두고 마주보고 있는 경우와 두 대지가 각각 다른 도로에 접한 경우에 단서 규정이 적용되는지?",
+      "expected_answer": "가) 두 대지가 도로에 접하면서 그 도로를 사이에 두고 마주보고 있는 경우에는 구 「건축법 시행령」 제86조 제1항 단서 규정이 적용되지 않음. 나) 두 대지가 각각 다른 도로에 접한 경우에는 구 「건축법 시행령」 제86조 제1항 단서 규정이 적용되지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "16-0128, 2016.8.29.",
+      "category": "일조 등 확보를 위한 건축물 높이 제한 시 '너비가 2미터 이하인 대지'의 의미",
+      "title": "일조 등 확보를 위한 건축물 높이 제한 시 '너비가 2미터 이하인 대지'의 의미",
+      "question": "「건축법 시행령」 제86조 제6항 제2호 가목은 인접대지 한 필지의 너비 전체가 2미터 이하인 경우에만 적용되는지, 아니면 일부분의 너비가 2미터 이하인 경우에도 적용되는지?",
+      "expected_answer": "「건축법 시행령」 제86조 제6항 제2호 가목은 건축물을 건축하려는 대지와 정북방향에 있는 인접대지 한 필지의 너비 전체가 2미터 이하인 경우에만 적용됨.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.5,
+      "precision": 0.1111111111111111,
+      "f1_score": 0.1818181818181818,
+      "success": true
+    },
+    {
+      "case_id": "17-0245, 2017.8.8.",
+      "category": "건축물의 정북방향 인접 대지가 '전용주거지역이나 일반주거지역이 아닌 용도지역인 경우'의 의미",
+      "title": "건축물의 정북방향 인접 대지가 '전용주거지역이나 일반주거지역이 아닌 용도지역인 경우'의 의미",
+      "question": "일반주거지역 내 건축물의 정북방향 인접 대지가 일반주거지역과 일반상업지역에 걸쳐 있고 일반상업지역이 과반인 경우, 「건축법 시행령」 제86조 제2항 제3호의 예외에 해당하는지?",
+      "expected_answer": "일반주거지역 안에서 건축물을 신축할 때 정북방향 인접 대지가 일반주거지역과 일반상업지역에 걸쳐 있고 일반상업지역이 과반을 차지하는 경우, 해당 인접 대지는 「건축법 시행령」 제86조 제2항 제3호의 예외에 해당하지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ],
+        [
+          "국토계획법",
+          "제36조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제43조"
+        ],
+        [
+          "BUILDING",
+          "제77조의13"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제86조"
+        ],
+        [
+          "BUILDING",
+          "제9조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제37조"
+        ],
+        [
+          "BUILDING",
+          "제61조"
+        ],
+        [
+          "BUILDING",
+          "제15조"
+        ],
+        [
+          "BUILDING",
+          "제10조"
+        ]
+      ],
+      "recall": 0.5,
+      "precision": 0.1,
+      "f1_score": 0.16666666666666669,
+      "success": true
+    },
+    {
+      "case_id": "18-0122, 2018.6.11.",
+      "category": "같은 대지에서 두 동의 건축물이 마주보고 있는 경우 건축물 간 이격 거리 산정 시 '채광을 위한 창문 등이 있는 벽면'의 의미",
+      "title": "같은 대지에서 두 동의 건축물이 마주보고 있는 경우 건축물 간 이격 거리 산정 시 '채광을 위한 창문 등이 있는 벽면'의 의미",
+      "question": "창문이 없는 벽면만 서로 마주보는 형태로 두 동의 건축물을 건축하는 경우, 「건축법 시행령」 제86조 제3항 제2호 가목이 적용되는지?",
+      "expected_answer": "한 세대 벽면에 창문이 없는 벽면과 창문이 있는 벽면이 같은 방향으로 구분되어 설치되어 있고, 창문이 없는 벽면만 서로 마주보는 형태로 두 동의 건축물을 건축하는 경우, 「건축법 시행령」 제86조 제3항 제2호 가목이 적용됨.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제52조의6"
+        ],
+        [
+          "BUILDING",
+          "제6조의2"
+        ],
+        [
+          "BUILDING",
+          "제16조"
+        ],
+        [
+          "BUILDING",
+          "제68조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제52조"
+        ],
+        [
+          "BUILDING",
+          "제4조의5"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제40조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "18-0172, 2018.5.26.",
+      "category": "복합 건축물의 각 부분 높이 산정의 기준이 되는 지표면의 의미",
+      "title": "복합 건축물의 각 부분 높이 산정의 기준이 되는 지표면의 의미",
+      "question": "복합 건축물의 각 부분 높이 산정 시 기준이 되는 지표면은 '공동주택의 가장 낮은 부분'인지, 아니면 '다른 건축물과 마주보는 부분에 위치한 공동주택의 가장 낮은 부분'인지?",
+      "expected_answer": "복합 건축물의 각 부분 높이를 산정할 때 기준이 되는 지표면은 해당 건축물에 있는 '공동주택의 가장 낮은 부분'임.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제119조"
+        ],
+        [
+          "BUILDING",
+          "제86조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제4조의4"
+        ],
+        [
+          "BUILDING",
+          "제54조"
+        ],
+        [
+          "BUILDING",
+          "제52조의6"
+        ],
+        [
+          "BUILDING",
+          "제68조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제52조의4"
+        ],
+        [
+          "BUILDING",
+          "제12조"
+        ],
+        [
+          "BUILDING",
+          "제52조"
+        ],
+        [
+          "BUILDING",
+          "제76조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "19-0503, 2019.12.5.",
+      "category": "「건축법 시행령」 제86조 제6항 제3호의 '건축이 허용되지 아니하는 공지'의 의미",
+      "title": "「건축법 시행령」 제86조 제6항 제3호의 '건축이 허용되지 아니하는 공지'의 의미",
+      "question": "「건축법」 제44조에 따른 접도요건을 충족하지 못하는 대지가 「건축법 시행령」 제86조 제6항 제3호의 '건축이 허용되지 아니하는 공지'에 해당하는지?",
+      "expected_answer": "「건축법」 제44조에 따른 접도요건을 충족하지 못하는 대지는 「건축법 시행령」 제86조 제6항 제3호의 '건축이 허용되지 아니하는 공지'에 해당하지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ],
+        [
+          "BUILDING",
+          "제44조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제31조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제7조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "20-0617, 2020.12.29.",
+      "category": "자연녹지지역 안에 높이 4미터를 넘는 광고탑 축조 시 일조 등 확보를 위한 높이 제한 적용 여부",
+      "title": "자연녹지지역 안에 높이 4미터를 넘는 광고탑 축조 시 일조 등 확보를 위한 높이 제한 적용 여부",
+      "question": "자연녹지지역 안에서 높이 4미터를 넘는 광고탑을 축조할 때 「건축법」 제61조를 준용하여 인접대지경계선으로부터 일정한 거리를 띄어야 하는지?",
+      "expected_answer": "자연녹지지역 안에서 높이 4미터를 넘는 광고탑을 축조하는 경우 「건축법」 제61조를 준용하여 인접대지경계선으로부터 일정한 거리를 띄어야 하는 것은 아님.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제86조"
+        ],
+        [
+          "BUILDING",
+          "제61조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제44조"
+        ],
+        [
+          "BUILDING",
+          "제51조"
+        ],
+        [
+          "BUILDING",
+          "제46조"
+        ],
+        [
+          "BUILDING",
+          "제77조의4"
+        ],
+        [
+          "BUILDING",
+          "제20조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ],
+        [
+          "BUILDING",
+          "제19조"
+        ],
+        [
+          "BUILDING",
+          "제15조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "20-0602, 0620, 2020.12.30.",
+      "category": "일조 등 확보를 위한 인접 대지경계선으로부터의 이격거리 기준 적용 시 대지경계선의 범위",
+      "title": "일조 등 확보를 위한 인접 대지경계선으로부터의 이격거리 기준 적용 시 대지경계선의 범위",
+      "question": "건축물을 건축하려는 대지와 다른 대지 사이에 면적이 분할제한 기준 이하이고 건축물이 건축되어 있는 대지가 있는 경우, 「건축법 시행령」 제86조 제6항 제2호 나목을 적용할 수 있는지?",
+      "expected_answer": "건축물을 건축하려는 대지와 다른 대지 사이에 면적이 분할제한 기준 이하이고 건축물이 건축되어 있는 대지가 있는 경우, 「건축법 시행령」 제86조 제6항 제2호 나목을 적용하여 반대편의 대지경계선을 인접 대지경계선으로 할 수 없음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ],
+        [
+          "BUILDING",
+          "제80조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제4조의2"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제20조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ],
+        [
+          "BUILDING",
+          "제15조"
+        ],
+        [
+          "BUILDING",
+          "제10조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0054, 2021.3.15.",
+      "category": "인접대지경계선을 반대편의 대지경계선으로 하기 위한 대지의 요건",
+      "title": "인접대지경계선을 반대편의 대지경계선으로 하기 위한 대지의 요건",
+      "question": "건축물을 건축하려는 대지와 다른 대지 사이에 면적이 분할제한 기준 이하인 대지가 있는 경우, 「건축법 시행령」 제86조 제6항 제2호를 적용할 수 있는지?",
+      "expected_answer": "건축물을 건축하려는 대지와 다른 대지 사이에 면적이 분할제한 기준 이하인 대지가 있는 경우, 「건축법 시행령」 제86조 제6항 제2호를 적용하여 반대편의 대지경계선을 인접 대지경계선으로 할 수 있음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제4조의2"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제20조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ],
+        [
+          "BUILDING",
+          "제15조"
+        ],
+        [
+          "BUILDING",
+          "제10조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0081, 2021.5.12.",
+      "category": "일조 등 확보를 위한 이격 거리 기준이 배제되는 요건 중 너비 20미터 이상의 도로에 접하는 대지의 범위",
+      "title": "일조 등 확보를 위한 이격 거리 기준이 배제되는 요건 중 너비 20미터 이상의 도로에 접하는 대지의 범위",
+      "question": "「건축법 시행령」 제86조 제2항 제1호의 '해당 대지가 너비 20미터 이상의 도로에 접한 경우'는 두 대지가 모두 도로에 접하는 경우를 의미하는지?",
+      "expected_answer": "「건축법 시행령」 제86조 제2항 제1호는 상호 간의 두 대지가 모두 너비 20미터 이상의 도로에 연속하여 접하는 경우를 의미함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0403, 2021.10.15.",
+      "category": "마주보는 건축물을 띄어 건축해야 하는 기준인 '건축물 각 부분의 높이'의 범위",
+      "title": "마주보는 건축물을 띄어 건축해야 하는 기준인 '건축물 각 부분의 높이'의 범위",
+      "question": "채광창등이 있는 벽면으로 된 건축물(A)과 채광창등이 없는 측벽으로 된 건축물(B)이 서로 마주보는 경우, 이격거리는 A건축물의 높이만 기준으로 산정하는지?",
+      "expected_answer": "같은 대지에서 두 동의 건축물이 서로 마주보고 있는 경우, 「건축법 시행령」 제86조 제3항 제2호에 따른 '건축물 각 부분 사이의 거리'는 두 건축물의 높이를 모두 기준으로 하여 산정해야 함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제4조의2"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제22조"
+        ],
+        [
+          "BUILDING",
+          "제85조"
+        ],
+        [
+          "BUILDING",
+          "제4조의5"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0590, 2021.12.1.",
+      "category": "창 넓이가 0.5제곱미터 미만인 창이 마주보고 있는 공동주택 두 동의 이격거리 기준",
+      "title": "창 넓이가 0.5제곱미터 미만인 창이 마주보고 있는 공동주택 두 동의 이격거리 기준",
+      "question": "창 넓이가 0.5제곱미터 미만인 창이 있는 벽면이 서로 마주보는 공동주택 두 동의 경우, 「건축법 시행령」 제86조 제3항 제2호 가목과 마목 중 어떤 조항을 적용해야 하는지?",
+      "expected_answer": "창 넓이가 0.5제곱미터 미만인 창이 있는 벽면이 서로 마주보는 공동주택 두 동의 경우, 「건축법 시행령」 제86조 제3항 제2호 가목을 적용해야 함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제27조"
+        ],
+        [
+          "BUILDING",
+          "제16조"
+        ],
+        [
+          "BUILDING",
+          "제3조의3"
+        ],
+        [
+          "BUILDING",
+          "제23조"
+        ],
+        [
+          "BUILDING",
+          "제86조"
+        ],
+        [
+          "BUILDING",
+          "제9조"
+        ],
+        [
+          "BUILDING",
+          "제37조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제106조"
+        ]
+      ],
+      "recall": 1.0,
+      "precision": 0.1,
+      "f1_score": 0.18181818181818182,
+      "success": true
+    },
+    {
+      "case_id": "21-0710, 2022.1.27.",
+      "category": "너비 20미터 이상의 도로에 접하는 두 대지 사이에 건축이 금지된 공지가 있는 경우 일조 등 확보를 위한 이격거리 기준 배제 여부",
+      "title": "너비 20미터 이상의 도로에 접근하는 두 대지 사이에 건축이 금지된 공지가 있는 경우 일조 등 확보를 위한 이격거리 기준 배제 여부",
+      "question": "너비 20미터 이상의 도로에 접하는 두 대지 사이에 건축이 금지된 공지가 있는 경우, 「건축법 시행령」 제86조 제1항에 따른 거리 기준이 적용되는지?",
+      "expected_answer": "너비 20미터 이상의 도로에 접하는 두 대지 사이에 건축이 금지된 공지가 있는 경우, 두 대지에 건축하는 건축물에 대하여는 「건축법 시행령」 제86조 제1항에 따른 거리 기준이 적용되지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제86조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제6조의2"
+        ],
+        [
+          "BUILDING",
+          "제44조"
+        ],
+        [
+          "BUILDING",
+          "제3조"
+        ],
+        [
+          "BUILDING",
+          "제46조"
+        ],
+        [
+          "BUILDING",
+          "제3조의3"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ],
+        [
+          "BUILDING",
+          "제77조의13"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "22-0155, 2022.6.17.",
+      "category": "「건축법 시행령」 제86조 제2항 제1호에 따른 '도로'에 포함되는 공공공지, 녹지, 광장의 범위",
+      "title": "「건축법 시행령」 제86조 제2항 제1호에 따른 '도로'에 포함되는 공공공지, 녹지, 광장의 범위",
+      "question": "「건축법 시행령」 제86조 제2항 제1호에 따른 '공공공지, 녹지, 광장'은 도시·군계획시설로만 한정되는지?",
+      "expected_answer": "「건축법 시행령」 제86조 제2항 제1호에 따른 '공공공지, 녹지, 광장'은 「국토계획법」 제2조 제7호에 따른 도시·군계획시설인 공공공지, 녹지, 광장으로 한정됨.",
+      "expected_laws": [
+        [
+          "국토계획법",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제86조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0233",
+      "category": "건축법령 해석 사례",
+      "title": "피난시설 부적합 건축물의 이행강제금 산정기준",
+      "question": "「건축법」 제80조 제1항 제2호 및 같은 법 시행령 별표 15에 따른 이행강제금 산정기준에서 '시가표준액'은 건축물 전체의 시가표준액을 의미하는지, 아니면 법령 기준에 부적합한 부분의 시가표준액을 의미하는지?",
+      "expected_answer": "시가표준액은 건축물 전체에 대한 시가표준액을 의미함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제80조"
+        ],
+        [
+          "BUILDING",
+          "별표"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제31조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제7조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0876",
+      "category": "건축법령 해석 사례",
+      "title": "이행강제금 가중요건 중 상습적 위반의 범위",
+      "question": "시정명령 불이행으로 반복 부과된 이행강제금이 「건축법 시행령」 제115조의3 제2항 제4호의 가중요건에 해당하는지?",
+      "expected_answer": "반복 부과된 이행강제금은 가중요건에 해당하지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제79조"
+        ],
+        [
+          "BUILDING",
+          "제80조"
+        ],
+        [
+          "BUILDING",
+          "제115조의3"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제25조의2"
+        ],
+        [
+          "BUILDING",
+          "제41조"
+        ],
+        [
+          "BUILDING",
+          "제79조"
+        ],
+        [
+          "BUILDING",
+          "제77조의15"
+        ],
+        [
+          "BUILDING",
+          "제77조의9"
+        ],
+        [
+          "BUILDING",
+          "제56조"
+        ],
+        [
+          "BUILDING",
+          "제49조"
+        ],
+        [
+          "BUILDING",
+          "제78조"
+        ],
+        [
+          "BUILDING",
+          "제19조"
+        ],
+        [
+          "BUILDING",
+          "제77조"
+        ]
+      ],
+      "recall": 0.3333333333333333,
+      "precision": 0.1,
+      "f1_score": 0.15384615384615383,
+      "success": true
+    },
+    {
+      "case_id": "21-0773",
+      "category": "건축법령 해석 사례",
+      "title": "주차전용건축물 대장의 부대시설 표기 방법",
+      "question": "주차전용건축물의 집합건축물대장 현황도란에 부대시설 표기 시, 용도란에도 반드시 표기해야 하는지?",
+      "expected_answer": "용도란에 반드시 표기할 필요 없음.",
+      "expected_laws": [
+        [
+          "건축물대장의 기재 및 관리 등에 관한 규칙",
+          "별표"
+        ],
+        [
+          "건축물대장의 기재 및 관리 등에 관한 규칙",
+          "제5조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다. 다른 키워드로 검색해보세요.",
+      "retrieved_sources": 0,
+      "retrieved_laws": [],
+      "recall": 0.0,
+      "precision": 0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0527",
+      "category": "건축법령 해석 사례",
+      "title": "건축물 재개축 시 개축 요건 충족 여부",
+      "question": "기존 건축물 전부 해체 후 연면적 합계는 동일하지만 높이를 초과하는 건축물 축조 시 개축으로 볼 수 있는지?",
+      "expected_answer": "개축에 해당하지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제6조의2"
+        ],
+        [
+          "BUILDING",
+          "제12조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제67조"
+        ],
+        [
+          "BUILDING",
+          "제6조"
+        ]
+      ],
+      "recall": 1.0,
+      "precision": 0.2222222222222222,
+      "f1_score": 0.3636363636363636,
+      "success": true
+    },
+    {
+      "case_id": "21-0618",
+      "category": "건축법령 해석 사례",
+      "title": "예치금 면제 대상 여부의 판단 기준",
+      "question": "주택 및 복리시설 건축물이 자본시장법에 따른 신탁계약을 체결한 경우 「건축법」 제13조 제2항의 예치금 대상인지?",
+      "expected_answer": "예치금 대상에 해당함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "건축물의 분양에 관한 법률",
+          "제4조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제8조"
+        ],
+        [
+          "BUILDING",
+          "제56조"
+        ],
+        [
+          "BUILDING",
+          "제105조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제23조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.5,
+      "precision": 0.1,
+      "f1_score": 0.16666666666666669,
+      "success": true
+    },
+    {
+      "case_id": "21-0640",
+      "category": "건축법령 해석 사례",
+      "title": "공개공지 설치 의무 판단 기준",
+      "question": "공개공지 설치 의무 판단 시 '해당 용도로 쓰는 바닥면적' 산정 시 부설 주차장 면적 포함 여부?",
+      "expected_answer": "부설 주차장 면적 포함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제27조의2"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제27조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제111조"
+        ],
+        [
+          "BUILDING",
+          "제27조의2"
+        ],
+        [
+          "BUILDING",
+          "제110조의2"
+        ],
+        [
+          "BUILDING",
+          "제28조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제43조"
+        ],
+        [
+          "BUILDING",
+          "제10조"
+        ]
+      ],
+      "recall": 0.5,
+      "precision": 0.1111111111111111,
+      "f1_score": 0.1818181818181818,
+      "success": true
+    },
+    {
+      "case_id": "21-0681",
+      "category": "건축법령 해석 사례",
+      "title": "동수 증가 시 개축 요건 충족 여부",
+      "question": "기존 건축물 일부 해체 후 연면적 합계는 동일하지만 동수를 초과하여 축조 시 개축 여부?",
+      "expected_answer": "개축에 해당하지 않음.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제2조"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제6조의2"
+        ],
+        [
+          "BUILDING",
+          "제12조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제67조"
+        ],
+        [
+          "BUILDING",
+          "제6조"
+        ]
+      ],
+      "recall": 1.0,
+      "precision": 0.1111111111111111,
+      "f1_score": 0.19999999999999998,
+      "success": true
+    },
+    {
+      "case_id": "21-0917",
+      "category": "건축법령 해석 사례",
+      "title": "대지 공지 기준 적용 대상 판매시설의 범위",
+      "question": "「건축법 시행령」 별표 2 제1호 다목의 '1,000제곱미터 이상 판매시설'에 복합용도 건축물 포함 여부?",
+      "expected_answer": "복합용도 건축물 포함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "별표"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "22-0293",
+      "category": "건축법령 해석 사례",
+      "title": "공개공지 설치 시 건축기준 완화의 법적 성격",
+      "question": "공개공지 설치 시 용적률 및 높이 제한을 반드시 완화해야 하는지?",
+      "expected_answer": "반드시 완화하지 않아도 됨.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "제43조"
+        ],
+        [
+          "BUILDING",
+          "제27조의2"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제27조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제111조"
+        ],
+        [
+          "BUILDING",
+          "제27조의2"
+        ],
+        [
+          "BUILDING",
+          "제110조의2"
+        ],
+        [
+          "BUILDING",
+          "제28조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제43조"
+        ],
+        [
+          "BUILDING",
+          "제10조"
+        ]
+      ],
+      "recall": 1.0,
+      "precision": 0.2222222222222222,
+      "f1_score": 0.3636363636363636,
+      "success": true
+    },
+    {
+      "case_id": "18-0486",
+      "category": "건축설비",
+      "title": "건축물의 용도가 복합된 경우 승강기 설치기준",
+      "question": "연면적 2,000m² 이상이고 전체 층수가 6층 이상이며, 1층~3층은 주택 외 시설, 4층 이상은 공동주택인 복합건축물에서 주택법 제15조에 따른 사업계획 승인 대상 건축물인 경우, 「주택건설기준 등에 관한 규정」 제15조에 따라 공동주택 전용 승강기를 설치한 것 외에 1층~3층에 별도의 승강기 설치 필요 여부",
+      "expected_answer": "별도의 승강기를 설치해야 하는 것은 아님.",
+      "expected_laws": [
+        [
+          "주택법",
+          "주택법"
+        ],
+        [
+          "주택건설기준 등에 관한 규정",
+          "주택건설기준"
+        ],
+        [
+          "BUILDING",
+          "건축법"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제27조"
+        ],
+        [
+          "BUILDING",
+          "제48조의3"
+        ],
+        [
+          "BUILDING",
+          "제16조"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제23조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제105조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제106조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "20-0025",
+      "category": "건축설비",
+      "title": "승용승강기 설치기준에서 '거실 면적' 산정 시 주민복리시설 면적 포함 여부",
+      "question": "공동주택 또는 주거용 오피스텔 건축 시 「건축법」 제64조 제1항에 따라 승용승강기 설치 시, 「건축물의 설비기준 등에 관한 규칙」 별표1의2에 따른 6층 이상 거실 면적 합계 산정 시 입주민 전용 주민복리시설 면적 포함 여부",
+      "expected_answer": "주민복리시설 면적도 포함하여 거실 면적 산정 필요.",
+      "expected_laws": [
+        [
+          "건축물의 설비기준 등에 관한 규칙",
+          "건축물의"
+        ],
+        [
+          "주택건설기준 등에 관한 규칙",
+          "주택건설기준"
+        ],
+        [
+          "BUILDING",
+          "건축법"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제41조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제8조"
+        ],
+        [
+          "BUILDING",
+          "제56조"
+        ],
+        [
+          "BUILDING",
+          "제13조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제11조"
+        ],
+        [
+          "BUILDING",
+          "제24조"
+        ],
+        [
+          "BUILDING",
+          "제14조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "20-0219",
+      "category": "건축설비",
+      "title": "16인승 이상 승용승강기를 비상용승강기 대수로 인정 여부",
+      "question": "「건축법」 제64조 제2항에 따라 비상용승강기 대신 승용승강기를 비상용 구조로 설치 시, 16인승 이상 승용승강기 1대를 2대의 비상용승강기로 인정 가능 여부",
+      "expected_answer": "16인승 이상 승용승강기 1대를 2대의 비상용승강기로 볼 수 없음.",
+      "expected_laws": [
+        [
+          "건축물의 설비기준 등에 관한 규칙",
+          "건축물의"
+        ],
+        [
+          "BUILDING",
+          "건축법"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제31조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제7조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0540",
+      "category": "건축설비",
+      "title": "용도 복합 건축물의 비상용승강기 설치 기준",
+      "question": "높이 31m 초과 복합건축물(1~8층: 주택 외 시설, 9층 이상: 공동주택)에서 1~8층에 비상용승강기 설치 의무 여부",
+      "expected_answer": "1층~8층에도 비상용승강기 설치 필요.",
+      "expected_laws": [
+        [
+          "건축물의 설비기준 등에 관한 규칙",
+          "건축물의"
+        ],
+        [
+          "BUILDING",
+          "건축법"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING",
+          "제83조"
+        ],
+        [
+          "BUILDING",
+          "제25조의2"
+        ],
+        [
+          "BUILDING",
+          "제110조"
+        ],
+        [
+          "BUILDING",
+          "제51조"
+        ],
+        [
+          "BUILDING",
+          "제108조"
+        ],
+        [
+          "BUILDING",
+          "제49조"
+        ],
+        [
+          "BUILDING",
+          "제6조의3"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제47조"
+        ],
+        [
+          "BUILDING",
+          "제72조"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    },
+    {
+      "case_id": "21-0854",
+      "category": "건축설비",
+      "title": "비상용승강기 설치 대수 산정 시 '바닥면적'의 범위",
+      "question": "「건축법 시행령」 제90조 제1항의 비상용승강기 설치 대수 산정 시 '바닥면적'이 거실 면적으로 한정되는지 여부",
+      "expected_answer": "거실 외 용도의 바닥면적도 포함.",
+      "expected_laws": [
+        [
+          "BUILDING",
+          "건축법"
+        ]
+      ],
+      "generated_answer": "관련된 법령 조항을 찾을 수 없습니다.",
+      "retrieved_sources": 10,
+      "retrieved_laws": [
+        [
+          "BUILDING_MGMT",
+          "제2조"
+        ],
+        [
+          "BUILDING",
+          "제3조의2"
+        ],
+        [
+          "BUILDING",
+          "제1조의2"
+        ],
+        [
+          "BUILDING",
+          "제4조"
+        ],
+        [
+          "BUILDING",
+          "제3조의5"
+        ],
+        [
+          "BUILDING",
+          "제1조"
+        ],
+        [
+          "BUILDING",
+          "제2조"
+        ],
+        [
+          "BUILDING_MGMT",
+          "제29조의2"
+        ],
+        [
+          "BUILDING",
+          "제2조의3"
+        ]
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0,
+      "success": true
+    }
+  ]
+}

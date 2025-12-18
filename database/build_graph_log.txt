@@ -1,0 +1,152 @@
+INFO - 
+
+######################################################################
+INFO - 🚀 실행 시작: 2025-11-23 14:35:25
+INFO - ######################################################################
+
+INFO - ✅ Neo4j 연결
+INFO - ✅ 인덱스 생성
+INFO - 
+======================================================================
+건축법 처리
+======================================================================
+INFO - 📄 건축법(법률)(제21065호)(20251001).pdf
+INFO - ✅ 97,345자 (목차 4p 제외)
+INFO - ✅ BUILDING-Act: 147개 조항
+INFO - 🔨 BUILDING-Act (BuildingAct) 구축...
+INFO - ✅ BUILDING-Act
+INFO - 📄 건축법 시행령(대통령령)(제35811호)(20251001).pdf
+INFO - ✅ 125,803자 (목차 5p 제외)
+INFO - ✅ BUILDING-Decree: 136개 조항
+INFO - 🔨 BUILDING-Decree (BuildingDecree) 구축...
+INFO - ✅ BUILDING-Decree
+INFO - 📄 건축법 시행규칙(국토교통부령)(제01531호)(20251031).pdf
+INFO - ✅ 44,065자 (목차 2p 제외)
+INFO - ✅ BUILDING-Rule: 67개 조항
+INFO - 🔨 BUILDING-Rule (BuildingRule) 구축...
+INFO - ✅ BUILDING-Rule
+INFO - 
+======================================================================
+건축물관리법 처리
+======================================================================
+INFO - 📄 건축물관리법(법률)(제20549호)(20250604).pdf
+INFO - ✅ 35,954자 (목차 2p 제외)
+INFO - ✅ BUILDING_MGMT-Act: 59개 조항
+INFO - 🔨 BUILDING_MGMT-Act (BuildingMgmtAct) 구축...
+INFO - ✅ BUILDING_MGMT-Act
+INFO - 📄 건축물관리법 시행령(대통령령)(제35549호)(20250604).pdf
+INFO - ✅ 28,564자 (목차 0p 제외)
+INFO - ✅ BUILDING_MGMT-Decree: 44개 조항
+INFO - 🔨 BUILDING_MGMT-Decree (BuildingMgmtDecree) 구축...
+INFO - ✅ BUILDING_MGMT-Decree
+INFO - 📄 건축물관리법 시행규칙(국토교통부령)(제01495호)(20250602).pdf
+INFO - ✅ 12,757자 (목차 1p 제외)
+INFO - ✅ BUILDING_MGMT-Rule: 25개 조항
+INFO - 🔨 BUILDING_MGMT-Rule (BuildingMgmtRule) 구축...
+INFO - ✅ BUILDING_MGMT-Rule
+INFO - 
+======================================================================
+INFO - 🔗 관계 생성...
+INFO - 🔍 총 478개 조항 분석 시작...
+INFO - 💾 REFERS_TO 저장...
+INFO - 💾 DELEGATES_TO 저장...
+INFO - 💾 CROSS_REFERS_TO 저장...
+INFO - ✅ 관계 생성 완료
+WARNING - Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownRelationshipTypeWarning} {category: UNRECOGNIZED} {title: The provided relationship type is not in the database.} {description: One of the relationship types in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing relationship type is: CROSS_REFERS_TO)} {position: line: 10, column: 36, offset: 472} for query: '\n                RETURN \n                count{ MATCH (a:Article) } as articles,\n                count{ MATCH (c:Clause) } as clauses,\n                count{ MATCH (i:Item) } as items,\n                count{ MATCH (s:Subitem) } as subitems,\n                count{ MATCH ()-[r:CONTAINS]->() } as contains,\n                count{ MATCH ()-[r:REFERS_TO]->() } as refers,\n                count{ MATCH ()-[r:DELEGATES_TO]->() } as delegates,\n                count{ MATCH ()-[r:CROSS_REFERS_TO]->() } as cross\n            '
+INFO - 
+======================================================================
+📊 Graph Database 통계
+======================================================================
+
+[법령별 조항 수]
+
+건축법
+  Act     :  147개
+  Decree  :  136개
+  Rule    :   67개
+
+건축물관리법
+  Act     :   59개
+  Decree  :   44개
+  Rule    :   25개
+
+[노드 합계]: 3,889
+[관계 합계]: 5,152
+======================================================================
+INFO - ✅ 모든 작업 완료!
+INFO - 
+
+######################################################################
+INFO - 🚀 실행 시작: 2025-11-28 14:35:56
+INFO - ######################################################################
+
+INFO - ✅ Neo4j 연결
+INFO - ✅ 인덱스 생성
+INFO - 
+======================================================================
+건축법 처리
+======================================================================
+INFO - 📄 건축법(법률)(제21065호)(20251001).pdf
+INFO - ✅ 97,345자 (목차 4p 제외)
+INFO - ✅ BUILDING-Act: 147개 조항
+INFO - 🔨 BUILDING-Act (BuildingAct) 구축...
+INFO - ✅ BUILDING-Act
+INFO - 📄 건축법 시행령(대통령령)(제35811호)(20251001).pdf
+INFO - ✅ 125,803자 (목차 5p 제외)
+INFO - ✅ BUILDING-Decree: 136개 조항
+INFO - 🔨 BUILDING-Decree (BuildingDecree) 구축...
+INFO - ✅ BUILDING-Decree
+INFO - 📄 건축법 시행규칙(국토교통부령)(제01531호)(20251031).pdf
+INFO - ✅ 44,065자 (목차 2p 제외)
+INFO - ✅ BUILDING-Rule: 67개 조항
+INFO - 🔨 BUILDING-Rule (BuildingRule) 구축...
+INFO - ✅ BUILDING-Rule
+INFO - 
+======================================================================
+건축물관리법 처리
+======================================================================
+INFO - 📄 건축물관리법(법률)(제20549호)(20250604).pdf
+INFO - ✅ 35,954자 (목차 2p 제외)
+INFO - ✅ BUILDING_MGMT-Act: 59개 조항
+INFO - 🔨 BUILDING_MGMT-Act (BuildingMgmtAct) 구축...
+INFO - ✅ BUILDING_MGMT-Act
+INFO - 📄 건축물관리법 시행령(대통령령)(제35549호)(20250604).pdf
+INFO - ✅ 28,564자 (목차 0p 제외)
+INFO - ✅ BUILDING_MGMT-Decree: 44개 조항
+INFO - 🔨 BUILDING_MGMT-Decree (BuildingMgmtDecree) 구축...
+INFO - ✅ BUILDING_MGMT-Decree
+INFO - 📄 건축물관리법 시행규칙(국토교통부령)(제01495호)(20250602).pdf
+INFO - ✅ 12,757자 (목차 1p 제외)
+INFO - ✅ BUILDING_MGMT-Rule: 25개 조항
+INFO - 🔨 BUILDING_MGMT-Rule (BuildingMgmtRule) 구축...
+INFO - ✅ BUILDING_MGMT-Rule
+INFO - 
+======================================================================
+INFO - 🔗 관계 생성...
+INFO - 🔍 총 478개 조항 분석 시작...
+INFO - 💾 REFERS_TO 저장...
+INFO - 💾 DELEGATES_TO 저장...
+INFO - 💾 CROSS_REFERS_TO 저장...
+INFO - ✅ 관계 생성 완료
+WARNING - Received notification from DBMS server: {severity: WARNING} {code: Neo.ClientNotification.Statement.UnknownRelationshipTypeWarning} {category: UNRECOGNIZED} {title: The provided relationship type is not in the database.} {description: One of the relationship types in your query is not available in the database, make sure you didn't misspell it or that the label is available when you run this statement in your application (the missing relationship type is: CROSS_REFERS_TO)} {position: line: 10, column: 36, offset: 472} for query: '\n                RETURN \n                count{ MATCH (a:Article) } as articles,\n                count{ MATCH (c:Clause) } as clauses,\n                count{ MATCH (i:Item) } as items,\n                count{ MATCH (s:Subitem) } as subitems,\n                count{ MATCH ()-[r:CONTAINS]->() } as contains,\n                count{ MATCH ()-[r:REFERS_TO]->() } as refers,\n                count{ MATCH ()-[r:DELEGATES_TO]->() } as delegates,\n                count{ MATCH ()-[r:CROSS_REFERS_TO]->() } as cross\n            '
+INFO - 
+======================================================================
+📊 Graph Database 통계
+======================================================================
+
+[법령별 조항 수]
+
+건축법
+  Act     :  147개
+  Decree  :  136개
+  Rule    :   67개
+
+건축물관리법
+  Act     :   59개
+  Decree  :   44개
+  Rule    :   25개
+
+[노드 합계]: 3,889
+[관계 합계]: 5,152
+======================================================================
+INFO - ✅ 모든 작업 완료!
