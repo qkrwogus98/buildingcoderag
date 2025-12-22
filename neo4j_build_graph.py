@@ -11,6 +11,7 @@ from typing import List, Dict, Tuple
 import logging
 import datetime
 from dataclasses import dataclass
+from collections import defaultdict
 
 # 기존 logging 설정 대신 아래 함수를 사용
 def setup_custom_logger():
@@ -545,7 +546,10 @@ class GraphBuilder:
                     """, {'i': itm_uid, 's': sub_uid})
     
     def create_relations(self):
-        """조항 간 관계 생성 (Python 정규식 기반 개선 버전)"""
+        """
+        조항 간 관계 생성 (Python 정규식 기반 개선 버전)
+        cross_patterns를 자동으로 생성하여 법령 간 참조 관계를 구축합니다.
+        """
         logger.info("🔗 관계 생성...")
         
         # 정규식 패턴 컴파일
@@ -556,25 +560,24 @@ class GraphBuilder:
         p_act_ref = re.compile(r'법\s*제(\d+(?:의\d+)?)조')    # 령 -> 법
         p_decree_ref = re.compile(r'영\s*제(\d+(?:의\d+)?)조') # 규칙 -> 령
         
-        # 3. 외부 법령 참조: "법령명 + (공백) + 제N조" 형태만 엄격하게 매칭
-        # 예: "건축물관리법 제39조" (O), "건축물관리법 ... 제39조" (X - 오탐지 방지)
-        cross_patterns = {
-            'BUILDING': [
-                ('주택법', 'HOUSING'),
-                ('건축물관리법', 'BUILDING_MGMT'),
-                ('국토의계획및이용에관한법률', 'LAND_PLAN'),
-                ('주차장법', 'PARKING')
-            ],
-            'HOUSING': [('건축법', 'BUILDING')],
-            'LAND_PLAN': [('건축법', 'BUILDING')]
-        }
+        # 3. cross_patterns 자동 생성
+        logger.info("🔍 cross_patterns 자동 생성 중...")
+        cross_patterns = self._generate_cross_patterns()
+        
+        # 생성된 cross_patterns 로깅
+        logger.info(f"✅ 생성된 cross_patterns:")
+        for source_code, targets in cross_patterns.items():
+            if targets:
+                logger.info(f"  {source_code}: {len(targets)}개 법령 참조")
+                for law_name, target_code in targets:
+                    logger.info(f"    - {law_name} -> {target_code}")
 
         with self.driver.session() as session:
             # 모든 Article을 메모리로 가져와서 처리 (속도 및 정확성 향상)
             result = session.run("""
                 MATCH (a:Article) 
                 RETURN a.uid as uid, a.law_code as law_code, a.law_type as law_type, 
-                       a.article_id as article_id, a.full_text as text
+                    a.article_id as article_id, a.full_text as text
             """)
             
             articles = [record for record in result]
@@ -646,7 +649,16 @@ class GraphBuilder:
 
             # 배치 처리를 위한 헬퍼 함수
             def batch_run(query, data_list, batch_size=1000):
-                if not data_list: return
+                """
+                대량의 관계를 배치 단위로 Neo4j에 저장합니다.
+                
+                Args:
+                    query: Cypher 쿼리문
+                    data_list: 저장할 데이터 리스트
+                    batch_size: 한 번에 처리할 배치 크기
+                """
+                if not data_list:
+                    return
                 for i in range(0, len(data_list), batch_size):
                     batch = data_list[i:i+batch_size]
                     session.run(query, {'batch': batch})
@@ -676,13 +688,93 @@ class GraphBuilder:
             q_cross = """
                 UNWIND $batch as row
                 MATCH (a:Article {uid: row.from})
-                # 타 법령은 Act(법률)를 참조하는 것이 일반적이므로 law_type: 'Act'로 고정하거나 필요시 수정
+                # 타 법령은 Act(법률)를 참조하는 것이 일반적이므로 law_type: 'Act'로 고정
                 MATCH (t:Article {law_code: row.to_code, law_type: 'Act', article_id: row.to_id})
                 MERGE (a)-[:CROSS_REFERS_TO]->(t)
             """
             batch_run(q_cross, rels_cross)
 
         logger.info("✅ 관계 생성 완료")
+
+
+    def _generate_cross_patterns(self):
+        """
+        데이터베이스에 실제로 존재하는 법령들을 분석하여
+        cross_patterns를 자동으로 생성합니다.
+        
+        Returns:
+            dict: {source_law_code: [(law_name, target_law_code), ...]}
+        """
+        # 1. 데이터베이스에서 실제로 존재하는 법령 코드 조회
+        with self.driver.session() as session:
+            result = session.run("""
+                MATCH (a:Article)
+                RETURN DISTINCT a.law_code as law_code
+            """)
+            existing_codes = {record['law_code'] for record in result}
+        
+        logger.info(f"  데이터베이스 내 법령: {len(existing_codes)}개 ({', '.join(sorted(existing_codes))})")
+        
+        # 2. 각 법령별로 다른 법령 이름 매핑 생성
+        # LAWS에서 name을 가져와서 사용
+        law_name_to_code = {}
+        for code in existing_codes:
+            if code in LAWS:
+                law_def = LAWS[code]
+                # 법령 이름을 키로, 코드를 값으로 저장
+                # 예: "건축법" -> "BUILDING"
+                law_name_to_code[law_def.name] = code
+        
+        logger.info(f"  법령명 매핑: {len(law_name_to_code)}개")
+        for name, code in sorted(law_name_to_code.items()):
+            logger.info(f"    {name} -> {code}")
+        
+        # 3. 각 법령의 조항 텍스트에서 다른 법령 참조 패턴 자동 탐지
+        cross_patterns = defaultdict(list)
+        
+        with self.driver.session() as session:
+            # 각 법령 코드별로 조항 텍스트 샘플링 (성능 최적화)
+            for source_code in existing_codes:
+                # 해당 법령의 모든 조항 텍스트 가져오기
+                result = session.run("""
+                    MATCH (a:Article {law_code: $code})
+                    RETURN a.full_text as text
+                    LIMIT 1000
+                """, {'code': source_code})
+                
+                # 텍스트를 하나로 합침
+                combined_text = ' '.join([r['text'] for r in result if r['text']])
+                
+                # 각 법령명이 언급되는지 확인
+                for law_name, target_code in law_name_to_code.items():
+                    # 자기 자신은 제외
+                    if target_code == source_code:
+                        continue
+                    
+                    # "법령명 제N조" 패턴 확인
+                    pattern = re.compile(re.escape(law_name) + r'\s*제\d+(?:의\d+)?조')
+                    if pattern.search(combined_text):
+                        # 중복 방지
+                        if (law_name, target_code) not in cross_patterns[source_code]:
+                            cross_patterns[source_code].append((law_name, target_code))
+                            logger.info(f"  ✓ {source_code}에서 '{law_name}' 참조 발견 -> {target_code}")
+        
+        # 4. 수동 추가 패턴 (특수한 경우나 약칭)
+        # 예: "국토계획법"이 "국토의계획및이용에관한법률"의 약칭인 경우
+        manual_additions = {
+            # 필요시 수동으로 추가
+            # 'BUILDING': [('국토계획법', 'LAND_PLAN')],
+        }
+        
+        for source, additions in manual_additions.items():
+            if source in existing_codes:
+                for law_name, target_code in additions:
+                    if target_code in existing_codes:
+                        if (law_name, target_code) not in cross_patterns[source]:
+                            cross_patterns[source].append((law_name, target_code))
+                            logger.info(f"  + {source}에 수동 추가: '{law_name}' -> {target_code}")
+        
+        return dict(cross_patterns)
     
     def stats(self):
         """통계 출력"""
@@ -765,7 +857,7 @@ def main():
     builder = GraphBuilder(NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD)
     
     try:
-        # builder.clear()  # 기존 데이터 삭제 (선택)
+        builder.clear()  # 기존 데이터 삭제 (선택)
         builder.create_indexes()
         
         # 각 법령 처리
