@@ -80,54 +80,102 @@ LAWS = {
             'Rule': '/home/jaehyeonpark/Downloads/건축물관리법 시행규칙(국토교통부령)(제01495호)(20250602).pdf'
         }
     ),
-    # 'HOUSING': LawDefinition(
-    #     code='HOUSING',
-    #     name='주택법',
-    #     act_label='HousingAct',
-    #     decree_label='HousingDecree',
-    #     rule_label='HousingRule',
-    #     pdf_paths={
-    #         'Act': '/path/to/주택법.pdf',
-    #         'Decree': '/path/to/주택법_시행령.pdf',
-    #         'Rule': '/path/to/주택법_시행규칙.pdf'
-    #     }
-    # ),
-    # 'LAND_PLAN': LawDefinition(
-    #     code='LAND_PLAN',
-    #     name='국토의계획및이용에관한법률',
-    #     act_label='LandPlanAct',
-    #     decree_label='LandPlanDecree',
-    #     rule_label='LandPlanRule',
-    #     pdf_paths={
-    #         'Act': '/path/to/국토의계획및이용에관한법률.pdf',
-    #         'Decree': '/path/to/국토의계획및이용에관한법률_시행령.pdf',
-    #         'Rule': '/path/to/국토의계획및이용에관한법률_시행규칙.pdf'
-    #     }
-    # ),
-    # 'PARKING': LawDefinition(
-    #     code='PARKING',
-    #     name='주차장법',
-    #     act_label='ParkingAct',
-    #     decree_label='ParkingDecree',
-    #     rule_label='ParkingRule',
-    #     pdf_paths={
-    #         'Act': '/path/to/주차장법.pdf',
-    #         'Decree': '/path/to/주차장법_시행령.pdf',
-    #         'Rule': '/path/to/주차장법_시행규칙.pdf'
-    #     }
-    # ),
-    # 'ARCH_SERVICE': LawDefinition(
-    #     code='ARCH_SERVICE',
-    #     name='건축서비스산업진흥법',
-    #     act_label='ArchServiceAct',
-    #     decree_label='ArchServiceDecree',
-    #     rule_label='ArchServiceRule',
-    #     pdf_paths={
-    #         'Act': '/path/to/건축서비스산업진흥법.pdf',
-    #         'Decree': '/path/to/건축서비스산업진흥법_시행령.pdf',
-    #         'Rule': '/path/to/건축서비스산업진흥법_시행규칙.pdf'
-    #     }
-    # )
+    'BUILDING_SERVICE': LawDefinition(
+        code='BUILDING_SERVICE',
+        name='건축서비스산업진흥법',
+        act_label='BuildingServiceAct',
+        decree_label='BuildingServiceDecree',
+        rule_label='BuildingServiceRule',
+        pdf_paths={
+            'Act': '/home/jaehyeonpark/Downloads/건축서비스산업 진흥법(법률)(제19990호)(20240710).pdf',
+            'Decree': '/home/jaehyeonpark/Downloads/건축서비스산업 진흥법 시행령(대통령령)(제33466호)(20230516).pdf',
+            'Rule': '/home/jaehyeonpark/Downloads/건축서비스산업 진흥법 시행규칙(국토교통부령)(제00098호)(20140605).pdf'
+        }
+    ),
+    'PARKING': LawDefinition(
+        code='PARKING',
+        name='주차장법',
+        act_label='ParkingAct',
+        decree_label='ParkingDecree',
+        rule_label='ParkingRule',
+        pdf_paths={
+            'Act': '/home/jaehyeonpark/Downloads/주차장법(법률)(제21185호)(20251202).pdf',
+            'Decree': '/home/jaehyeonpark/Downloads/주차장법 시행령(대통령령)(제35708호)(20250817).pdf',
+            'Rule': '/home/jaehyeonpark/Downloads/주차장법 시행규칙(국토교통부령)(제01527호)(20250930).pdf'
+        }
+    ),
+    'LAND_PLAN': LawDefinition(
+        code='LAND_PLAN',
+        name='국토의계획및이용에관한법률',
+        act_label='LandPlanAct',
+        decree_label='LandPlanDecree',
+        rule_label='LandPlanRule',
+        pdf_paths={
+            'Act': '/home/jaehyeonpark/Downloads/국토의 계획 및 이용에 관한 법률(법률)(제21065호)(20251001).pdf',
+            'Decree': '/home/jaehyeonpark/Downloads/국토의 계획 및 이용에 관한 법률 시행령(대통령령)(제35628호)(20251002).pdf',
+            'Rule': '/home/jaehyeonpark/Downloads/국토의 계획 및 이용에 관한 법률 시행규칙(국토교통부령)(제01338호)(20241130).pdf'
+        }
+    ),
+    'HOUSING': LawDefinition(
+        code='HOUSING',
+        name='주택법',
+        act_label='HousingAct',
+        decree_label='HousingDecree',
+        rule_label='HousingRule',
+        pdf_paths={
+            'Act': '/home/jaehyeonpark/Downloads/주택법.pdf',
+            'Decree': '/home/jaehyeonpark/Downloads/주택법 시행령.pdf',
+            'Rule': '/home/jaehyeonpark/Downloads/주택법 시행규칙.pdf'
+        }
+    ),
+    'GREEN_BUILDING': LawDefinition(
+        code='GREEN_BUILDING',
+        name='녹색건축물조성지원법',
+        act_label='GreenBuildingAct',
+        decree_label='GreenBuildingDecree',
+        rule_label='GreenBuildingRule',
+        pdf_paths={
+            'Act': '/home/jaehyeonpark/Downloads/녹색건축물 조성 지원법(법률)(제21065호)(20251001).pdf',
+            'Decree': '/home/jaehyeonpark/Downloads/녹색건축물 조성 지원법 시행령(대통령령)(제35811호)(20251001).pdf',
+            'Rule': '/home/jaehyeonpark/Downloads/녹색건축물 조성 지원법 시행규칙(국토교통부령)(제01422호)(20250101).pdf'
+        }
+    ),
+    'HANOK': LawDefinition(
+        code='HANOK',
+        name='한옥등건축자산의진흥에관한법률',
+        act_label='HanokAct',
+        decree_label='HanokDecree',
+        rule_label='HanokRule',
+        pdf_paths={
+            'Act': '/home/jaehyeonpark/Downloads/한옥 등 건축자산의 진흥에 관한 법률(법률)(제19702호)(20240915).pdf',
+            'Decree': '/home/jaehyeonpark/Downloads/한옥 등 건축자산의 진흥에 관한 법률 시행령(대통령령)(제34494호)(20240517).pdf',
+            'Rule': '/home/jaehyeonpark/Downloads/한옥 등 건축자산의 진흥에 관한 법률 시행규칙(국토교통부령)(제00882호)(20210827).pdf'
+        }
+    ),
+    'BUILDING_SALE': LawDefinition(
+        code='BUILDING_SALE',
+        name='건축물의분양에관한법률',
+        act_label='BuildingSaleAct',
+        decree_label='BuildingSaleDecree',
+        rule_label='BuildingSaleRule',
+        pdf_paths={
+            'Act': '/home/jaehyeonpark/Downloads/한옥 등 건축자산의 진흥에 관한 법률(법률)(제19702호)(20240915).pdf',
+            'Decree': '/home/jaehyeonpark/Downloads/한옥 등 건축자산의 진흥에 관한 법률 시행령(대통령령)(제34494호)(20240517).pdf',
+            'Rule': '/home/jaehyeonpark/Downloads/한옥 등 건축자산의 진흥에 관한 법률 시행규칙(국토교통부령)(제00882호)(20210827).pdf'
+        }
+    ),
+    'CONVENIENCE': LawDefinition(
+        code='CONVENIENCE',
+        name='장애인노인임산부등의편의증진보장에관한법률',
+        act_label='ConvenienceAct',
+        decree_label='ConvenienceDecree',
+        rule_label='ConvenienceRule',
+        pdf_paths={
+            'Act': '/home/jaehyeonpark/Downloads/장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률(법률)(제20594호)(20251221).pdf',
+            'Decree': '/home/jaehyeonpark/Downloads/장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률 시행령(대통령령)(제35811호)(20251001).pdf',
+            'Rule': '/home/jaehyeonpark/Downloads/장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률 시행규칙(보건복지부령)(제01139호)(20251221).pdf'
+        }
+    ),
 }
 
 
@@ -709,7 +757,8 @@ def main():
     
     # 처리할 법령 선택, 필요시 수정
     # 우선은 2개 법령만 처리
-    laws_to_process = ['BUILDING', 'BUILDING_MGMT']
+    laws_to_process = ['BUILDING', 'BUILDING_MGMT', 'BUILDING_SERVICE', 'PARKING', 'LAND_PLAN', 'HOUSING', 'GREEN_BUILDING',
+'HANOK', 'BUILDING_SALE', 'CONVENIENCE']
 
     
     parser = LawParser()
